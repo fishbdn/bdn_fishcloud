@@ -58,3 +58,6 @@ Options -Indexes
 <IfModule pagespeed_module>
   ModPagespeed Off
 </IfModule>
+
+ErrorDocument 403 /fishcloud/core/templates/403.php
+ErrorDocument 404 /fishcloud/core/templates/404.php
